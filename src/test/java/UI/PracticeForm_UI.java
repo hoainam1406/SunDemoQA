@@ -9,8 +9,17 @@ public class PracticeForm_UI extends PageObject {
     public WebElementFacade button;
     @FindBy(xpath = "//div[@id='example-modal-sizes-title-lg']")
     public WebElementFacade message;
-    @FindBy(xpath ="//textarea[@id='currentAddress']" )
-    public WebElementFacade last;
     @FindBy(xpath = "//input[@id='firstName']")
     public WebElementFacade firstname;
+    @FindBy(xpath = "//input[@id='lastName']")
+    public WebElementFacade lastname;
+    @FindBy(xpath = "//label[contains(text(),'Male')]")
+    public WebElementFacade gendermale;
+    @FindBy(xpath = "//label[contains(text(),'Female')]")
+    public WebElementFacade genderfemale;
+    @FindBy(xpath = "//label[contains(text(),'Other')]")
+    public WebElementFacade genderother;
+    @FindBy(xpath = "//input[@id='userNumber']")
+    public WebElementFacade mobile;
+
 }

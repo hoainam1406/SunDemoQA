@@ -12,11 +12,16 @@ public class PracticeForm_Serenity extends ScenarioSteps {
         practicePage.open();
     }
     public void ClickSubmit(){
-        practicePage.ClickSubmitButton();
+        practicePage.clickSubmitButton();
     }
     public String getMessage(){
         return practicePage.getMessage();
     }
-
+    public void enterMandatoryFields(){
+        practicePage.enterfirstname();
+        practicePage.enterlastname();
+        practicePage.checkGender();
+        practicePage.entermobile();
+    }
 
 }
