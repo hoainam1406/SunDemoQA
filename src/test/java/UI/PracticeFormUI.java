@@ -4,7 +4,7 @@ import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 
-public class PracticeForm_UI extends PageObject {
+public class PracticeFormUI extends PageObject {
     @FindBy(xpath = "//button[@id='submit']")
     public WebElementFacade button;
     @FindBy(xpath = "//div[@id='example-modal-sizes-title-lg']")
