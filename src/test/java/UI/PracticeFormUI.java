@@ -6,37 +6,49 @@ import net.serenitybdd.core.pages.WebElementFacade;
 
 public class PracticeFormUI extends PageObject {
     @FindBy(xpath = "//button[@id='submit']")
-    public WebElementFacade button;
+    public WebElementFacade btnSubmit;
+
     @FindBy(xpath = "//div[@id='example-modal-sizes-title-lg']")
-    public WebElementFacade message;
+    public WebElementFacade txtMessage;
+
     @FindBy(xpath = "//input[@id='firstName']")
-    public WebElementFacade firstname;
+    public WebElementFacade txtFirstname;
+
     @FindBy(xpath = "//input[@id='lastName']")
-    public WebElementFacade lastname;
+    public WebElementFacade txtLastname;
+
     @FindBy(xpath = "//input[@id='userEmail']")
-    public WebElementFacade email;
+    public WebElementFacade txtEmail;
+
     @FindBy(xpath = "//label[contains(text(),'Male')]")
-    public WebElementFacade gendermale;
+    public WebElementFacade lblGenderMale;
+
     @FindBy(xpath = "//label[contains(text(),'Female')]")
-    public WebElementFacade genderfemale;
+    public WebElementFacade lblGenderfFemale;
+
     @FindBy(xpath = "//label[contains(text(),'Other')]")
-    public WebElementFacade genderother;
+    public WebElementFacade lblGenderOther;
+
     @FindBy(xpath = "//input[@id='userNumber']")
-    public WebElementFacade mobile;
+    public WebElementFacade txtMobile;
+
     @FindBy(xpath = "//input[@id='dateOfBirthInput']")
-    public WebElementFacade dateofbirth;
+    public WebElementFacade txtDateOfBirth;
+
     @FindBy(xpath = "//body/div[@id='app']/div[1]/div[1]/div[2]/div[2]/div[1]/form[1]/div[6]/div[2]/div[1]/div[1]/div[1]")
-    public WebElementFacade subjects;
+    public WebElementFacade txtSubjects;
+
     @FindBy(xpath = "//label[contains(text(),'Sports')]")
-    public WebElementFacade hobbiesprots;
+    public WebElementFacade lblHobbieSprots;
+
     @FindBy(xpath = "//label[contains(text(),'Reading')]")
-    public WebElementFacade hobbiereading;
+    public WebElementFacade lblHobbieReading;
+
     @FindBy(xpath = "//label[contains(text(),'Music')]")
-    public WebElementFacade hobbiemusic;
+    public WebElementFacade lblHobbieMusic;
+
     @FindBy(xpath = "//textarea[@id='currentAddress']")
-    public WebElementFacade currentaddress;
-    @FindBy(xpath = "//body/div[@id='app']/div[1]/div[1]/div[2]/div[2]/div[1]/form[1]/div[10]/div[2]/div[1]/div[1]/div[2]/div[1]")
-    public WebElementFacade state;
-    @FindBy(xpath = "//body/div[@id='app']/div[1]/div[1]/div[2]/div[2]/div[1]/form[1]/div[10]/div[3]/div[1]/div[1]/div[1]")
-    public WebElementFacade city;
+    public WebElementFacade txtCurrentAddress;
+
+
 }
