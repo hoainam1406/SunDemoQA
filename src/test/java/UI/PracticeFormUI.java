@@ -5,6 +5,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 
 public class PracticeFormUI extends PageObject {
+
     @FindBy(xpath = "//button[@id='submit']")
     public WebElementFacade btnSubmit;
 
